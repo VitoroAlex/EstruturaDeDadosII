@@ -37,7 +37,7 @@ void Ordena(TipoIndice Esq, TipoIndice Dir, TipoItem *A) {
 
 // Função do quicksort
 void QuickSort(TipoItem *A, TipoIndice n) {
-    Ordena(0, n - 1, A); // ajustado para começar do índice 0
+    Ordena(0, n - 1, A); // ajustado para começar do índice 0.
 }
 
 void ImprimeVetor(TipoItem A[], int n) {
